@@ -1,0 +1,32 @@
+Hangman word guesser
+
+"""Programming Concepts
+    • Use each of the following programming concepts in your project:
+        ◦ Strings and Numbers (ints and/or floats)
+        ◦ Mathematical operations (+,-,*,/,%)
+        ◦ Sequences (strings, lists, tuples, and/or dictionaries)
+        ◦ Loops (for and/or while)
+        ◦ Functions
+        ◦ Classes"""
+
+--Give the users the rules to the game and have them accept to progress?--  
+Have user choose a specific genre (Up to 4)
+Each time the user guesses a letter/word wrong the body parts and limbs appear until the full stick figure appears. (7 tries)
+User can guess a letter and have that letter disappear from the word bank to let them know they used that letter.
+Or can guess the full word, if they guess the full word none of the letters from the word bank should disappear. (only when they guess a single letter)
+
+
+
+Program should look something like this
+
+----------------------
+                     |
+                     |
+                     O
+                    \|/
+                     |
+                    / \
+
+Word: _ _ _ _ _ 
+Letters you have left: A,B,C,D...
+Your guess:
