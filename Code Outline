@@ -1,1 +1,23 @@
+"""Programming Concepts
+    • Use each of the following programming concepts in your project:
+        ◦ Strings and Numbers (ints and/or floats)
+        ◦ Mathematical operations (+,-,*,/,%)
+        ◦ Sequences (strings, lists, tuples, and/or dictionaries)
+        ◦ Loops (for and/or while)
+        ◦ Functions
+        ◦ Classes"""
 
+Print out rules of the game:
+
+Have the program choose a random word from the genres:
+import random
+
+Have the program print out the word outline:
+for letter in word:
+  print("_ ")
+
+Guess counter:
+counter = 0
+max_guesses = 7
+if answer == wrong:
+  counter += 1 
