@@ -10,6 +10,7 @@ Hangman word guesser
         ◦ Classes"""
 
 --Give the users the rules to the game and have them accept to progress?--  
+Give the users a chance to find out what the genres entails. (Ex. If they type video games tell the user their guess should be video game titles/franchies.) 
 Have user choose a specific genre (Up to 4)
 Each time the user guesses a letter/word wrong the body parts and limbs appear until the full stick figure appears. (7 tries)
 User can guess a letter and have that letter disappear from the word bank to let them know they used that letter.
