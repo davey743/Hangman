@@ -1,14 +1,14 @@
+import random
+import time
+from genres import video_games, music
+
 class genres:
     def __init__(self, video_games, music):
         self.video_games = video_games
         self.music = music
-
-        
+    
 
 def main():
-    import random
-    import time
-
     def rules():
         print(f"Hangman is a wordguesser game, you have 7 tries to guess the word...")
 
