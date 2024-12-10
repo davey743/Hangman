@@ -7,7 +7,12 @@
         ◦ Functions
         ◦ Classes"""
 
+Genre class 
+have it choose a random word from a sequence 
+hangman class to play the game?
+
 Print out rules of the game:
+
 
 Have the program choose a random word from the genres:
 import random
