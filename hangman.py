@@ -1,13 +1,15 @@
 import random
 import time
-from genres import video_games, music
+from genres import video_games, music_artists, movies, countries
 from stickman import get_hangman_figure
 
 
 class Hangman:
-    def __init__(self, video_games, music):
+    def __init__(self, video_games, music_artists, movies, countries):
         self.video_games = video_games
-        self.music = music
+        self.music_artists = music_artists 
+        self.movies = movies
+        self.countries = countries
         self.chosen_category = None
         self.chosen_word = None
         self.guessed_word = None
@@ -15,12 +17,18 @@ class Hangman:
 
     def choose_category(self):
         while True:
-            category = input("Pick a category: 'video games', 'music', ): ").lower()
+            category = input("Pick a category: video games, music artists, movies, or countries: ").lower()
             if category == "video games":
                 self.chosen_category = self.video_games
                 break
-            elif category == "music":
-                self.chosen_category = self.music
+            elif category == "music artists":
+                self.chosen_category = self.music_artists
+                break
+            elif category == "movies":
+                self.chosen_category = self.movies
+                break
+            elif category == "countries":
+                self.chosen_category = self.countries
                 break
             else:
                 print("Invalid category. Please choose a valid category.")
@@ -75,7 +83,7 @@ class Hangman:
 
     def rules(self):
         print("\nHangman is a word guessing game.\nYou have 7 attempts to guess the word")
-        print("You can choose from 4 different categories\nThose categories are video games, music, ")
+        print("You can choose from 4 different categories\nThose categories are video games, music artists, movies, or countries")
 
     def welcome(self):
         print("Welcome to hangman!")
@@ -95,7 +103,7 @@ class Hangman:
                 print("Invalid input. Please type 'rules' or 'play'")
 
 def main():
-    game = Hangman(video_games, music)
+    game = Hangman(video_games, music_artists, movies, countries)
     game.welcome()
 
 if __name__ == "__main__":
