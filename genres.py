@@ -6,4 +6,4 @@ music_artists = ['Deftones', 'Nirvana', 'The Smashing Pumpkins', 'Radiohead', 'T
 
 movies = ['Star Wars', 'Jurassic Park', 'The Shawshank Redemption', 'Pulp Fiction', 'Toy Story', 'The Matrix', 'The Lord of the Rings', 'Pirates of the Carribean', 'Sherlock Holmes', 'The Silence of the Lambs', 'The Avengers', 'The Wizard of Oz', 'Casablanca', 'Gone with the Wind', 'Finding Nemo', 'The Lion King', 'Forrest Gump', 'Gladiator', 'The Godfather', 'The Sixth Sense', 'The Exorcist', 'The Shining', 'The Dark Knight Rises'] 
 
-countries = ['Germany', 'Indonesia', 'Argentina', 'Bangladesh', 'Colombia', 'Thailand', 'Madagascar', 'Portugal', 'Belarus', 'Cambodia', 'Zimbabwe', 'Montenegro', 'Brunei', 'Iceland', 'Botswana', 'Mozambique', 'Uzbekistan', 'Turkey', 'Vietnam', 'Guatemala', 'Honduras', 'Nicaragua', 'Venezuela', 'Uruguay'
+countries = ['Germany', 'Indonesia', 'Argentina', 'Bangladesh', 'Colombia', 'Thailand', 'Madagascar', 'Portugal', 'Belarus', 'Cambodia', 'Zimbabwe', 'Montenegro', 'Brunei', 'Iceland', 'Botswana', 'Mozambique', 'Uzbekistan', 'Turkey', 'Vietnam', 'Guatemala', 'Honduras', 'Nicaragua', 'Venezuela', 'Uruguay']
