@@ -17,7 +17,7 @@ class Hangman:
 
     def choose_category(self):
         while True:
-            category = input("Pick a category: video games, music artists, movies, or countries: ").lower()
+            category = input("Pick a category: video games, music").lower()
             if category == "video games":
                 self.chosen_category = self.video_games
                 break
