@@ -74,13 +74,13 @@ class Hangman:
 
     def rules(self):
         print("\nHangman is a word guessing game.\nYou have 7 attempts to guess the word")
-        print("You can choose 2 different categories\nThose categories are video games, music, ")
+        print("You can choose from 4 different categories\nThose categories are video games, music, ")
 
     def welcome(self):
         print("Welcome to hangman!")
-        #personal note dont delete
+        time.sleep(2)
         print("If you want to read about the rules of the game(type 'rules')")
-        #personal note also dont delete
+        time.sleep(2)
         print("If you are ready to play the game (type 'play')")
         
         while True:
