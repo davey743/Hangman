@@ -54,7 +54,7 @@ class Hangman:
                     return
                 else:
                     attempts -= 1
-                    print(f"Incorrect guess! You have {attempts} attempts left.")
+                    
             elif len(user_input) == 1 and user_input.upper() in self.letter_bank:
                 self.letter_bank.remove(user_input.upper())
                 if user_input.upper() in self.chosen_word.upper():
@@ -63,7 +63,6 @@ class Hangman:
                             self.guessed_word[i] = self.chosen_word[i]
                 else:
                     attempts -= 1
-                    print(f"Incorrect guess! You have {attempts} attempts left.")
             else:
                 print("Invalid input. Please guess a letter or the entire word.")
         if "_" not in self.guessed_word:
